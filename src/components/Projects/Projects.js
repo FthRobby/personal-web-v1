@@ -91,7 +91,7 @@ function Projects() {
               isBlog={false}
               title="Vue Movie"
               description="This application is made using Vue.js. This app use fetch Api from OMDB API. This app is still in the development stage."
-              link="https://fthrobby.github.io/sample-react-landing"
+              link="https://github.com/FthRobby/app-vue"
             />
           </Col>
 
