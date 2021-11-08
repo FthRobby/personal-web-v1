@@ -89,8 +89,8 @@ function Projects() {
             <ProjectCard
               imgPath={vuemovie}
               isBlog={false}
-              title="React Landing Page"
-              description="This landing page was created using React.js. This landing page is very simple and still under development, because I created it by looking at online tutorials."
+              title="Vue Movie"
+              description="This application is made using Vue.js. This app use fetch Api from OMDB API. This app is still in the development stage."
               link="https://fthrobby.github.io/sample-react-landing"
             />
           </Col>
