@@ -50,7 +50,7 @@ function Projects() {
               imgPath={crudphpnative}
               isBlog={false}
               title="CRUD PHP Native"
-              description="This calculator application is built using javascript and the Vue.js framework, using javascript arithmetic logic operations."
+              description="Simple crud application using pure php language and bootstrap 4."
               link="https://github.com/FthRobby/crud-php-native"
             />
           </Col>
