@@ -6,8 +6,8 @@ import logo2 from "../Assets/logo2.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineCode
 } from "react-icons/ai";
 
 
@@ -70,7 +70,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiOutlineCode
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
