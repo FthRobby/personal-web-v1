@@ -53,10 +53,7 @@ function Footer() {
                 </a>
               </li>
 
-              <li className="social-icons text-decoration-none text-white">
-              design by : <a href="https://github.com/soumyajit4419" className="text-decoration-none" style={{ color: "purple" }} target="_blank" rel="noopener noreferrer"> soumyajit</a>
-              </li>
-
+              
             </ul>
           </Col>
         </Row>
