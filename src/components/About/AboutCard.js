@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FiPlay } from "react-icons/fi";
 
 function AboutCard() {
   return (
@@ -17,13 +17,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <FiPlay /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sports
+              <FiPlay /> Sports
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FiPlay /> Travelling
             </li>
           </ul>
 
