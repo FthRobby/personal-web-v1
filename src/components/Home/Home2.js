@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/profile.png";
+import myImg from "../../Assets/profile2.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -48,7 +48,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" width="290" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
