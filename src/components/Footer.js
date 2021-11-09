@@ -4,7 +4,8 @@ import {
     AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaHeart } from "react-icons/fa";
+import {GiCoffeeCup} from "react-icons/gi";
 
 function Footer() {
     let date = new Date();
@@ -12,9 +13,10 @@ function Footer() {
     return (
       <Container fluid className="footer">
         <Row>
-          <Col md="4" className="footer-copywright">
-            <h3>Design inspired by <a className="purple text-decoration-none" target="_blank" rel="noopener noreferrer" href="https://github.com/soumyajit4419">soumyajit</a> </h3>
+        <Col md="4" className="footer-copywright">
+            <h3>Made with <FaHeart style={{ color: "purple" }} /> and <GiCoffeeCup style={{ color: "brown"}} /> </h3>
           </Col>
+          
           <Col md="4" className="footer-copywright">
             <h3>Copyright © {year} FthRobby</h3>
           </Col>
@@ -50,6 +52,11 @@ function Footer() {
                   <AiFillInstagram />
                 </a>
               </li>
+
+              <li className="social-icons text-decoration-none text-white">
+              design by : <a href="https://github.com/soumyajit4419" className="text-decoration-none" style={{ color: "purple" }} target="_blank" rel="noopener noreferrer"> soumyajit</a>
+              </li>
+
             </ul>
           </Col>
         </Row>
