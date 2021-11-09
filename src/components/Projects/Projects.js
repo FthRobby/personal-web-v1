@@ -30,6 +30,7 @@ function Projects() {
               imgPath={todoapp}
               isBlog={false}
               title="Vue Todo-App"
+              alt="Vue Todo-App"
               description="Todo app, built using Vue.js and Bootstrap. Has basic CRUD features and with a minimalist design."
               link="https://github.com/FthRobby/Todo-App"
             />
@@ -40,6 +41,7 @@ function Projects() {
               imgPath={vuecalc}
               isBlog={false}
               title="Vue Calculator"
+              alt="Vue Calculator"
               description="This calculator application is built using javascript and the Vue.js framework, using javascript arithmetic logic operations."
               link="https://github.com/FthRobby/Vue-Calculator"
             />
@@ -50,6 +52,7 @@ function Projects() {
               imgPath={crudphpnative}
               isBlog={false}
               title="CRUD PHP Native"
+              alt="crud php native"
               description="Simple crud application using pure php language and bootstrap 4."
               link="https://github.com/FthRobby/crud-php-native"
             />
@@ -60,6 +63,7 @@ function Projects() {
               imgPath={crudlaravel}
               isBlog={false}
               title="CRUD Laravel with AdminLTE"
+              alt="crud laravel"
               description="CRUD application using PHP language with Laravel 8 framework and user integration using AdminLTE3. There are several user tables in it."
               link="https://github.com/FthRobby/web-app"
             />
@@ -70,6 +74,7 @@ function Projects() {
               imgPath={reactlanding}
               isBlog={false}
               title="React Landing Page"
+              alt="react landing page"
               description="This landing page was created using React.js. This landing page is very simple and still under development, because I created it by looking at online tutorials."
               link="https://fthrobby.github.io/sample-react-landing"
             />
@@ -80,6 +85,7 @@ function Projects() {
               imgPath={pinjol}
               isBlog={false}
               title="Online Money Loan"
+              alt="online money loan"
               description="Online loan application. created using the Kotlin programming language. This application is still in the development stage."
               link="https://github.com/FthRobby/NganJoekDoeloe"
             />
@@ -90,6 +96,7 @@ function Projects() {
               imgPath={vuemovie}
               isBlog={false}
               title="Vue Movie"
+              alt="vue movie"
               description="This application is made using Vue.js. This app use fetch Api from OMDB API. This app is still in the development stage."
               link="https://github.com/FthRobby/app-vue"
             />
