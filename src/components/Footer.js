@@ -22,6 +22,7 @@ function Footer() {
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
+
               <li className="social-icons">
                 <a
                   href="https://github.com/fthrobby"
@@ -32,6 +33,7 @@ function Footer() {
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/fatah-robbysalam-5943b7217/"
@@ -42,6 +44,7 @@ function Footer() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/f.robby_/"
@@ -51,6 +54,19 @@ function Footer() {
                 >
                   <AiFillInstagram />
                 </a>
+              </li>
+
+              <li className="social-icons">
+                <p className="text-white">
+                  design by : 
+                  <a
+                  className="text-decoration-none"
+                  href="https://github.com/soumyajit4419"
+                  style={{ color: "purple" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                > Soumyajit Behera</a>
+                </p> 
               </li>
 
               
