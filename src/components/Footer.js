@@ -65,7 +65,7 @@ function Footer() {
                   style={{ color: "purple" }}
                   target="_blank" 
                   rel="noopener noreferrer"
-                > Soumyajit Behera</a>
+                > Soumyajit </a>
                 </p> 
               </li>
 

@@ -10,6 +10,7 @@ import crudlaravel from "../../Assets/Projects/crud-laravel.png";
 import pinjol from "../../Assets/Projects/simulasi-pinjol.png";
 import reactlanding from "../../Assets/Projects/react-landing.png";
 import vuemovie from "../../Assets/Projects/vue-movie.png";
+import mitsubishi from "../../Assets/Projects/mitsubishi-subang.png";
 
 
 function Projects() {
@@ -99,6 +100,17 @@ function Projects() {
               alt="vue movie"
               description="This application is made using Vue.js. This app use fetch Api from OMDB API. This app is still in the development stage."
               link="https://github.com/FthRobby/app-vue"
+            />
+          </Col>
+
+          <Col>
+            <ProjectCard
+             imgPath={mitsubishi}
+             isBlog={false}
+             title="Mitsubishi Subang"
+             alt="Mitsubishi Subang"
+             description="Web Promotion."
+             link="https://github.com/FthRobby/app-vue"
             />
           </Col>
 
