@@ -103,14 +103,14 @@ function Projects() {
             />
           </Col>
 
-          <Col>
+          <Col md={4} className="project-card">
             <ProjectCard
              imgPath={mitsubishi}
              isBlog={false}
              title="Mitsubishi Subang"
              alt="Mitsubishi Subang"
              description="Web Promotion."
-             link="https://github.com/FthRobby/app-vue"
+             link="https://github.com/FthRobby/mitsubishi-final"
             />
           </Col>
 
