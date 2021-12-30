@@ -12,6 +12,7 @@ import reactlanding from "../../Assets/Projects/react-landing.png";
 import vuemovie from "../../Assets/Projects/vue-movie.png";
 import mitsubishi from "../../Assets/Projects/mitsubishi-subang.png";
 import travelUI from "../../Assets/Projects/travel-app-ui.png";
+import travelWeb from "../../Assets/Projects/travel-app-web.png"
 
 
 function Projects() {
@@ -25,8 +26,52 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-       
+
+          <Col md={4} className="project-card">
+            <ProjectCard 
+            imgPath={travelUI}
+            isBlog={false}
+            title="Travel App UI"
+            alt="Travel App UI"
+            description="User interface of the travel app for booking vacation trips"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard 
+              imgPath={travelWeb}
+              isBlog={false}
+              title="Slicing Design Travel Web App (FrontEnd) "
+              alt="Travel Web App"
+              description="Layouting web based travel app design from adobe XD using HTML, SCSS and Bootstrap CSS."
+              link="https://github.com/FthRobby/FrontEnd-Nomads"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard 
+              imgPath={travelWeb}
+              isBlog={false}
+              title="Slicing Design Travel Web App (BackEnd) "
+              alt="Travel Web App"
+              description="Integrate laravel into travel web application. (on-going)"
+              link="https://github.com/FthRobby/BackEnd-Nomads"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+            imgPath={mitsubishi}
+            isBlog={false}
+            title="Mitsubishi Subang"
+            alt="Mitsubishi Subang"
+            description="Web Promotioin for sales of mitsubishi subang. (Dewi Wulandari)"
+            link="https://github.com/FthRobby/mitsubishi-final"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todoapp}
@@ -50,6 +95,17 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={vuemovie}
+            isBlog={false}
+            title="Vue Movie"
+            alt="vue movie"
+            description="This application is made using Vue.js. This app use fetch Api from OMDB API. This app is still in the development stage."
+            link="https://github.com/FthRobby/app-vue"
+          />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crudphpnative}
               isBlog={false}
@@ -66,7 +122,7 @@ function Projects() {
               isBlog={false}
               title="CRUD Laravel with AdminLTE"
               alt="crud laravel"
-              description="CRUD application using PHP language with Laravel 8 framework and user integration using AdminLTE3. There are several user tables in it."
+              description="Application for employee data collection, position data collection, and salary data collection using Laravel."
               link="https://github.com/FthRobby/web-app"
             />
           </Col>
@@ -92,39 +148,7 @@ function Projects() {
               link="https://github.com/FthRobby/NganJoekDoeloe"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={vuemovie}
-              isBlog={false}
-              title="Vue Movie"
-              alt="vue movie"
-              description="This application is made using Vue.js. This app use fetch Api from OMDB API. This app is still in the development stage."
-              link="https://github.com/FthRobby/app-vue"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-             imgPath={mitsubishi}
-             isBlog={false}
-             title="Mitsubishi Subang"
-             alt="Mitsubishi Subang"
-             description="Web Promotion."
-             link="https://github.com/FthRobby/mitsubishi-final"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-          <ProjectCard 
-            imgPath={travelUI}
-            isBlog={false}
-            title="Travel App UI"
-            alt="Travel App UI"
-            description="User interface of the travel app for booking vacation trips"
-          />
-          </Col>
-
+          
         </Row>
       </Container>
     </Container>
