@@ -11,6 +11,7 @@ import pinjol from "../../Assets/Projects/simulasi-pinjol.png";
 import reactlanding from "../../Assets/Projects/react-landing.png";
 import vuemovie from "../../Assets/Projects/vue-movie.png";
 import mitsubishi from "../../Assets/Projects/mitsubishi-subang.png";
+import travelUI from "../../Assets/Projects/travel-app-ui.png";
 
 
 function Projects() {
@@ -114,6 +115,15 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+          <ProjectCard 
+            imgPath={travelUI}
+            isBlog={false}
+            title="Travel App UI"
+            alt="Travel App UI"
+            description="User interface of the travel app for booking vacation trips"
+          />
+          </Col>
 
         </Row>
       </Container>
