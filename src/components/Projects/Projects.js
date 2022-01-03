@@ -13,6 +13,7 @@ import vuemovie from "../../Assets/Projects/vue-movie.png";
 import mitsubishi from "../../Assets/Projects/mitsubishi-subang.png";
 import travelUI from "../../Assets/Projects/travel-app-ui.png";
 import travelWeb from "../../Assets/Projects/travel-app-web.png"
+import FoodApp from "../../Assets/Projects/foodapp-vue.png"
 
 
 function Projects() {
@@ -28,6 +29,17 @@ function Projects() {
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard 
+            imgPath={FoodApp}
+            isBlog={false}
+            title="Fodd App Vue"
+            alt="Food App Vue"
+            description="Web-based application to order food in a restaurant or cafe. Created using vue js and using custom API JSON PLACEHOLDER to get the data"
+            link="https://github.com/FthRobby/FoodApp-vue"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard 
