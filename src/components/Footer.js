@@ -56,7 +56,7 @@ function Footer() {
                 </a>
               </li>
 
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <p className="text-white">
                   design by : 
                   <a
@@ -67,7 +67,7 @@ function Footer() {
                   rel="noopener noreferrer"
                 > Soumyajit </a>
                 </p> 
-              </li>
+              </li> */}
 
               
             </ul>
