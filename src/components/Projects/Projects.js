@@ -13,7 +13,7 @@ import vuemovie from "../../Assets/Projects/vue-movie.png";
 import mitsubishi from "../../Assets/Projects/mitsubishi-subang.png";
 import travelUI from "../../Assets/Projects/travel-app-ui.png";
 import travelWeb from "../../Assets/Projects/travel-app-web.png"
-import FoodApp from "../../Assets/Projects/foodapp-vue.png"
+import FoodApp from "../../Assets/Projects/foodapp-vue.jpeg"
 
 
 function Projects() {
@@ -36,7 +36,7 @@ function Projects() {
             isBlog={false}
             title="Fodd App Vue"
             alt="Food App Vue"
-            description="Web-based application to order food in a restaurant or cafe. Created using vue js and using custom API JSON PLACEHOLDER to get the data"
+            description="Web-based application to order food in a restaurant or cafe. Created using vue js and using Json Server to get the data."
             link="https://github.com/FthRobby/FoodApp-vue"
             />
           </Col>
@@ -58,7 +58,6 @@ function Projects() {
               title="Slicing Design Travel Web App (FrontEnd) "
               alt="Travel Web App"
               description="Layouting web based travel app design from adobe XD using HTML, SCSS and Bootstrap CSS."
-              link="https://github.com/FthRobby/FrontEnd-Nomads"
             />
           </Col>
 
