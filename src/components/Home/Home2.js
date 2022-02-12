@@ -22,27 +22,13 @@ function Home2() {
               <br />
               <br />I'm still learning some programming languages like
               <i>
-                <b className="purple"> PHP, Javascript, Kotlin   </b>
+                <b className="purple"> PHP, Javascript, Node.Js   </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> 
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Laravel</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Vue.js and React.js</b>
               </i>
             </p>
           </Col>
