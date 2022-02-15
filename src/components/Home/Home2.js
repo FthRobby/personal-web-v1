@@ -20,7 +20,8 @@ function Home2() {
             <p className="home-about-body">
               I fell in love with programming, and i have made something after learning programming
               <br />
-              <br />I'm still learning some programming languages like
+              <br />
+              I'm still learning some programming languages like
               <i>
                 <b className="purple"> PHP, Javascript, Node.Js   </b>
               </i>
@@ -30,7 +31,11 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> 
               </i>
+              <br/>
+              <br/>
+              See My Resume <a href="https://drive.google.com/file/d/1oc-HaRJr61qbfgOOWuOwORbt9i-gZT3R/view?usp=sharing" target="_blank" className="purple font-weight-bolder text-decoration-none">here</a>
             </p>
+            
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

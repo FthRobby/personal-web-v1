@@ -13,8 +13,11 @@ function AboutCard() {
             <br />I am a student of UTDI (Universitas Teknologi Digital indonesia) in Yogyakarta.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
           </p>
+          
+          <span>
+          Apart from coding, some other activities that I love to do!
+          
           <ul>
             <li className="about-activity">
               <FiPlay /> Cycling
@@ -27,6 +30,8 @@ function AboutCard() {
             </li>
           </ul>
 
+          </span>
+          
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Work hard yes, Pray hard yes!"{" "}
           </p>
