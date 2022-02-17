@@ -33,7 +33,7 @@ function Home2() {
               </i>
               <br/>
               <br/>
-              See My Resume <a href="https://drive.google.com/file/d/1oc-HaRJr61qbfgOOWuOwORbt9i-gZT3R/view?usp=sharing" target="_blank" className="purple font-weight-bolder text-decoration-none">here</a>
+              See My Resume <a href="https://drive.google.com/file/d/1oc-HaRJr61qbfgOOWuOwORbt9i-gZT3R/view?usp=sharing" target="_blank" rel="noreferrer" className="purple font-weight-bolder text-decoration-none">here</a>
             </p>
             
           </Col>
